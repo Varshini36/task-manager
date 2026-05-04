@@ -1,8 +1,8 @@
-FROM openjdk:17-jdk-slim
+FROM openjdk:17
 
 WORKDIR /app
 
-COPY taskmanger/target/*.jar app.jar
+COPY target/*.jar app.jar
 
 EXPOSE 8080
 
